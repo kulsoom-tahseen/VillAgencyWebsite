@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Specify the branch 'main' explicitly
-                git branch: 'main', url: 'https://github.com/kamil2512/projectWebsite1.git'
+                git branch: 'main', url: 'https://github.com/kulsoom-tahseen/VillaAgencyWebsite.git'
             }
         }
 
